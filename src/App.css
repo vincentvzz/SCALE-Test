@@ -1,4 +1,19 @@
-.App {
+.gray {
+  background: rgb(193, 193, 193);
+}
+
+.blue {
+  background: rgb(104, 160, 230);
+}
+
+.tag {
+  display: flex;
+  width: min-content;
+  border-radius: 5px;
+}
+
+
+/* .App {
   text-align: center;
 }
 
@@ -35,4 +50,5 @@
   to {
     transform: rotate(360deg);
   }
-}
+} */
+

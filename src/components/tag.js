@@ -1,8 +1,18 @@
-import React from "react";
+import React, {useState} from "react";
 
-function Tag() {
+function Tag(props) {
+    const [select, setSelect] = useState("gray");
+
+    function handleClick() {
+        if (select === "gray") {
+            setSelect("blue");
+        } else {
+            setSelect("gray");
+        }
+
+    }
     return (
-        <div>This is a tag</div>
+        <div className={select + " tag"} onClick={handleClick} style={{cursor:'pointer'}}>{props.name}</div>
     )
 }
 
