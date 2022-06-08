@@ -9,10 +9,11 @@ function Tag(props) {
         } else {
             setSelect("gray");
         }
-
     }
+
+
     return (
-        <div className={select + " tag"} onClick={handleClick} style={{cursor:'pointer'}}>{props.name}</div>
+        <div className={select + " tag"} style={{cursor:'pointer'}}>{props.name}</div>
     )
 }
 

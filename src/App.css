@@ -10,6 +10,12 @@
   display: flex;
   width: min-content;
   border-radius: 5px;
+  margin: 5px;
+}
+
+.tags {
+  display: flex;
+  flex-direction: row;
 }
 
 

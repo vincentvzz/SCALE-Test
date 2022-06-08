@@ -1,0 +1,42 @@
+.gray {
+  background: rgb(193, 193, 193);
+}
+
+.blue {
+  background: rgb(104, 160, 230);
+}
+
+.tag {
+  display: flex;
+  width: min-content;
+  border-radius: 10px;
+  margin: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.tags {
+  display: flex;
+  flex-direction: row;
+}
+
+.error {
+  color: red;
+}
+
+.confirm-button {
+  width: 75px;
+  text-align: center;
+  border-radius: 10px;
+  background: black;
+  color: white;
+  margin-top: 20px;
+  margin-bottom: 30px;
+  padding: 5px;
+}
+
+.select-tag {
+  margin: 20px;
+}
